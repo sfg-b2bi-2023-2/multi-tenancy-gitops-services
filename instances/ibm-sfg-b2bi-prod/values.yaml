@@ -6,7 +6,7 @@ service-account:
 ibm-sfg-prod:
   global:
     image:
-      repository: cp.icr.io/cp/ibm-sfg/sfg
+      repository: cp.icr.io/cp/ibm-b2bi/b2bi
     # Provide the tag value in double quotes
       tag: 6.1.2.0
       pullPolicy: IfNotPresent
@@ -263,7 +263,7 @@ ibm-sfg-prod:
   purge:
     enabled: false
     image:
-      repository: cp.icr.io/cp/ibm-sfg/sfg-purge
+      repository: cp.icr.io/cp/ibm-b2bi/b2bi-purge
     # Provide the tag value in double quotes
       tag: 6.1.2.0
       pullPolicy: IfNotPresent
