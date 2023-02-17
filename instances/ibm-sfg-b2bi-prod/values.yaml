@@ -265,7 +265,7 @@ ibm-sfg-prod:
     image:
       repository: cp.icr.io/cp/ibm-sfg/sfg-purge
     # Provide the tag value in double quotes
-      tag: 6.1.0.0
+      tag: 6.1.2.0
       pullPolicy: IfNotPresent
       pullSecret: ibm-entitlement-key
     # Provide a schedule for the purge job as a cron expression. For example "0 0 * * *" will run the purge job at 00:00 every day
