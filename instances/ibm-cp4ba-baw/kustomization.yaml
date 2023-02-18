@@ -1,4 +1,4 @@
 resources:
-- machine-config.yaml
+# - machine-config.yaml
 - service-account.yaml
 - baw-cr.yaml
