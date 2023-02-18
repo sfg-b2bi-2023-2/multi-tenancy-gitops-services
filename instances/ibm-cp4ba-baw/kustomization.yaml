@@ -1,0 +1,4 @@
+resources:
+- pre-deploy/machine-config.yaml
+- pre-deploy/service-account.yaml
+- deploy/baw-cr.yaml
